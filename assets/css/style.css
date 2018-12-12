@@ -4,7 +4,7 @@ body {
   line-height: 34px;
   margin:0;
   color: #777777;
- /*  background: url("../images/concrete_seamless.png"); */
+ background: url("../images/concrete_seamless.png");
 }
 
 * {
@@ -245,8 +245,12 @@ input[type=submit] {
 form{
   width: 90%;
 }
+.work {
+  width:90%;
 }
-/* for screens below 960px */
+
+}
+
 
 /* Width at 640px and below */
 @media screen and (max-width: 640px) {
@@ -280,5 +284,15 @@ nav{
 }
 form{
   width: 90%;
+}
+.work {
+  width:90%;
+}
+.work h3 {
+  position: absolute;
+  bottom: 2%;
+  width: 100%;
+  padding: 2%;
+  margin-bottom: 5%;
 }
 }
